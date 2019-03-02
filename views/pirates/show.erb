@@ -11,7 +11,7 @@
     <p><%= @pirate.weight %></p>
 
     <h2>Ships</h2>
-    <p><% @ships.each do |ship| %>
+    <p><% @ships.each_with_index do |ship, index| %>
       <%= ship.name %>
       <%= ship.type %>
       <%= ship.booty %>

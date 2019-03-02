@@ -25,3 +25,10 @@ module FormsLab
 
   end
 end
+
+# dynamically- we want to be able to access the pirate name by id 
+
+# get '/pirate/:id' do 
+#   @pirate = Pirate.find(params[:id]) 
+#     erb :'pirate/show'
+# end 
